@@ -1,0 +1,72 @@
+/*CSS Reset*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*Body Styling*/
+body{
+    background: rgb(145, 93, 132);
+}
+/*Header Styling*/
+head{
+    
+}
+
+/* Navigation bar styling*/
+/*Navbar Functionality*/
+#navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 14vh;
+    width: 100vw;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+/*Navbar content functionality*/
+#navcontent {
+    display: flex;
+    justify-content: center;
+}
+
+/*Navbar content styling*/
+ul li {
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+ul li a:hover {
+    background-color: red;
+    border-radius: 10px;
+}
+/*Designing the footer*/
+footer {
+    text-align: center;
+    background:purple;
+}
+
+/*Designing of Contact Us*/
+#Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+
+.form-shape input,
+.form-shape select,
+.form-shape textarea {
+    width: 92%;
+    padding: 0.5rem;
+}
+
+
+@media only screen and (min-height:1000px) {
+    #navbar {
+        height: 10vh;
+    }}
+

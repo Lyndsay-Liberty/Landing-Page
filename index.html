@@ -1,0 +1,159 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Project</title>
+	<!-- Add bootstrap resources such js and css -->
+    <!-- Bootstrap CSS CDN -->
+	
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+<body>
+            <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary"> 
+		<!-- navbar: The main class that creates the navbar container, providing basic styling such as spacing and alignment.
+			navbar-expand-lg: Makes the navbar responsive, remaining collapsed on smaller screens and expanding into a horizontal menu at the large breakpoint (≥992px).
+			bg-body-tertiary: Applies a background color to the navbar using Bootstrap’s tertiary background scheme.-->
+			
+            <div class="container-fluid">
+			<!-- container-fluid is a class in Bootstrap CSS framework that creates a full width container -->
+			
+                <a class="navbar-brand" href="#company">The cats meow!</a>
+				<!-- navbar-brand: Applied to the branding element (e.g., logo or website name), ensuring proper spacing and styling. -->
+				
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<!-- navbar-toggler: The toggle button visible on smaller screens that collapses or expands the navbar content.	 -->
+					
+                    <span class="navbar-toggler-icon"></span>
+					<!-- navbar-toggler-icon: Applies a built-in icon to the toggle button, providing a visual indicator for expanding/collapsing the navbar. -->
+					
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<!-- collapse navbar-collapse: Collapses the navbar content on smaller screens and expands it on larger screens, working with the navbar-toggler. -->
+				
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<!-- navbar-nav: Styles the navigation items inside the navbar, providing appropriate spacing and layout for the list of links. -->
+					
+                        <li class="nav-item">
+						<!-- nav-item: Applied to each item in the navigation list, ensuring correct padding and alignment for individual links or dropdowns. -->
+						
+                            <a class="nav-link active" aria-current="page" href="#company">Home</a>
+							<!-- nav-link: Styles each link inside the navbar, providing correct text color, padding, and hover effects.
+								nav-link active: Highlights the current page’s link, applying distinct styling to make it visually different.
+							 -->
+							
+                        </li>
+                      
+						<li class="nav-item">
+                            <a class="nav-link" href="#trainingservices">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+						
+                            <a class="nav-link disabled" aria-disabled="true">Members</a>
+							<!-- nav-link disabled: Disables the link, making it unclickable and visually distinct with lower opacity. -->
+							
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+	<main>	
+		<section id="company" class="d-flex align-items-center">
+        <div class="container">
+            <h1>The purrrrfect company</h1>
+            <p>We are cat people!</p>
+        </div>
+    </section>
+		 
+		
+			
+			<section id="trainingservices" class="d-flex align-items-center">
+			<div >
+            <h2>Our  Services</h2>
+			</div>
+          
+            <!-- Card Section -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+			<!-- card: This class creates a flexible and extensible content container. It acts as the main wrapper for the card component, providing styling and structure for the card’s content. -->
+                <img src="blackcat.jpg"  class="card-img-top" alt="blackcat">
+				<!-- card-img-top: This class is applied to the image within the card. It styles the image to be displayed at the top of the card and ensures it is responsive, adapting to the card’s width. -->
+                <div class="card-body">
+				<!-- card-body: This class wraps the main content of the card, including the title, text, and buttons. It provides appropriate padding and styling to ensure the content is well-organized and visually appealing. -->
+                    <h5 class="card-title">Cat Companion</h5>
+					<!-- card-title: This class styles the title of the card, typically used for headings. It applies specific font styles and sizes to make the title stand out. -->
+					<p class="card-text">You can book a companion for your cat.</p>
+					<!-- card-text: This class styles the text content of the card, providing default styling for paragraphs or descriptions, ensuring consistency and readability. -->
+                    <a href="#" class="btn btn-primary">Get More Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="vacuumcat.jpg" class="card-img-top" alt="vacuumcat">
+                <div class="card-body">
+                    <h5 class="card-title">Grooming</h5>
+					<p class="card-text">Book your cat's spa day.</p>
+                    <a href="#" class="btn btn-primary">Get More Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="socialcat.jpg" class="card-img-top" alt="Socialcat">
+                <div class="card-body">
+                    <h5 class="card-title">Cats are social creatures</h5>
+					<p class="card-text">Sign up for a cat playdate.</p>
+                    <a href="#" class="btn btn-primary">Get More Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+ <section id="contact" >
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+	</main>
+	<footer class="text-center">
+    <div class="container">
+        <p>Liberty Mutual Cohort © 2025</p>
+        <p>Contact us: Lyndsay.may@libertymutual.com</p>
+    </div>
+</footer>
+</body>
+</html>
