@@ -64,6 +64,19 @@ container mt-5{
       background: rgb(145, 93, 132);
 }
 
+.card img{
+     float: left;
+    width:  100%;
+    height: 100%;
+    background-size: cover;
+}
+#card img{
+     float: left;
+    width:  100%;
+    height: 100%;
+    background-size: cover;
+}
+
 /*Designing of Contact Us*/
 #Contact {
     display: flex;
