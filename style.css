@@ -5,7 +5,7 @@
 }
 /*Body Styling*/
 body{
-    background: white;
+   
 }
 /*Header Styling*/
 head{
@@ -73,6 +73,9 @@ footer {
     flex-direction: column;
     align-items: center;
     background-color: light gray;
+}
+footer{
+    background-color: gray
 }
 
 .form-shape input,
