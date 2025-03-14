@@ -60,10 +60,12 @@ footer {
    }
 
 /*Designing of Cards*/
-container mt-5{
+.container mt-5{
       background: rgb(145, 93, 132);
 }
-
+#container mt-5{
+      background: rgb(145, 93, 132);
+}
 
 /*Designing of Contact Us*/
 #Contact {
