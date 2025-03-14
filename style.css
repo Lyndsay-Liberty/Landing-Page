@@ -49,7 +49,7 @@ footer {
     background:purple;
 }
 
-/*Designing of Cards*/
+/*Designing of Hero*/
 #hero {
     background-image: url("dots2.jpg");
     background-size:cover;
@@ -64,18 +64,6 @@ container mt-5{
       background: rgb(145, 93, 132);
 }
 
-.card img{
-     float: left;
-    width:  100%;
-    height: 100%;
-    background-size: cover;
-}
-#card img{
-     float: left;
-    width:  100%;
-    height: 100%;
-    background-size: cover;
-}
 
 /*Designing of Contact Us*/
 #Contact {
