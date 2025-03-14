@@ -51,7 +51,10 @@ footer {
 #hero {
     background-image: url("dots.jpg");
     background-size:cover;
-    background-color: #cccccc;
+   }
+.hero {
+    background-image: url("dots.jpg");
+    background-size:cover;
    }
 
 /*Designing of Contact Us*/
