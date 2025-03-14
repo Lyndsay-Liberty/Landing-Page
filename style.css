@@ -43,11 +43,7 @@ ul li a:hover {
     background-color: red;
     border-radius: 10px;
 }
-/*Designing the footer*/
-footer {
-    text-align: center;
-    background:purple;
-}
+
 
 /*Designing of Hero*/
 #hero {
@@ -93,9 +89,10 @@ footer {
     width: 92%;
     padding: 0.5rem;
 }
-
-footer{
-    background-color: gray
+/*Designing the footer*/
+footer {
+    text-align: center;
+    background-color: light gray
 }
 .container{
     background-color: gray
