@@ -68,18 +68,16 @@ ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: light gray;
-     border: 2px solid black;
-    border-radius: 15px
+       border: 2px solid black;
+    border-radius: 15px;
     margin-botton: 10px;
 }
 .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: light gray;
-     border: 2px solid black;
-    border-radius: 15px
+        border: 2px solid black;
+    border-radius: 15px;
      margin-botton: 10px;
 }
 
@@ -92,10 +90,10 @@ ul li a:hover {
 /*Designing the footer*/
 footer {
     text-align: center;
-    background-color: light gray
+    background-color: light gray;
 }
 .container{
-    background-color: gray
+    background-color: light gray;
 }
 #container{
     background-color: gray
