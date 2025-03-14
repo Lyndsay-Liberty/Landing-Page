@@ -74,9 +74,7 @@ footer {
     align-items: center;
     background-color: light gray;
 }
-footer{
-    background-color: gray
-}
+
 
 .form-shape input,
 .form-shape select,
@@ -85,7 +83,15 @@ footer{
     padding: 0.5rem;
 }
 
-
+footer{
+    background-color: gray
+}
+.container{
+    background-color: gray
+}
+#container{
+    background-color: gray
+}
 @media only screen and (min-height:1000px) {
     #navbar {
         height: 10vh;
