@@ -70,7 +70,7 @@ ul li a:hover {
     align-items: center;
        border: 2px solid black;
     border-radius: 15px;
-    margin-botton: 10px;
+    margin-botton: 50px;
 }
 .contact {
     display: flex;
@@ -78,7 +78,7 @@ ul li a:hover {
     align-items: center;
         border: 2px solid black;
     border-radius: 15px;
-     margin-botton: 10px;
+     margin-botton: 50px;
 }
 
 .form-shape input,
