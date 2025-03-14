@@ -5,7 +5,7 @@
 }
 /*Body Styling*/
 body{
-    
+     
 }
 /*Header Styling*/
 head{
@@ -54,27 +54,26 @@ ul li a:hover {
     background-image: url("dots3.jpg");
     background-size:cover;
    }
-/*Designing of Cards*/
-.company{
-    background: rgb(145, 93, 132)
-}
-/*Designing of Cards*/
-.container mt-5{
-      background: rgb(145, 93, 132);
-}
-#container mt-5{
-      background: rgb(145, 93, 132);
-}
+/*Designing of company secion*/
+#company{
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid rgb(168, 167, 167);
+    border-radius: 15px;
+    background-color: rgb(190, 161, 183);
+    align-items: center;
+    }
+/*Designing of Service Cards*/
 
 /*Designing of Contact Us*/
 #contact {
     display: flex;
     flex-direction: column;
+    border: 1px solid rgb(168, 167, 167);
     align-items: center;
-       border: 1px solid black;
     border-radius: 15px;
     margin-botton: 50px;
-}
+    }
 
 .form-shape input,
 .form-shape select,
