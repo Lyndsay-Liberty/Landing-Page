@@ -5,7 +5,7 @@
 }
 /*Body Styling*/
 body{
-    background: rgb(145, 93, 132);
+    background: white;
 }
 /*Header Styling*/
 head{
@@ -48,6 +48,8 @@ footer {
     text-align: center;
     background:purple;
 }
+
+/*Designing of Cards*/
 #hero {
     background-image: url("dots.jpg");
     background-size:cover;
@@ -56,6 +58,11 @@ footer {
     background-image: url("dots.jpg");
     background-size:cover;
    }
+
+/*Designing of Cards*/
+container mt-5{
+      background: rgb(145, 93, 132);
+}
 
 /*Designing of Contact Us*/
 #Contact {
